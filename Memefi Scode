@@ -1,0 +1,14 @@
+
+
+pkg update && pkg upgrade -y
+pkg install python rust git -y
+pkg install nano
+pkg install nodejs-lts
+mkdir ~/.gyp && echo "{'variables':{'android_ndk_path':''}}" > ~/.gyp/include.gypi
+npm install dotenv
+npm install moment
+git clone https://github.com/mosiburpaik/memefi.git
+cd memefi
+nano .env
+chmod +x install.sh
+node index.js
