@@ -1,0 +1,17 @@
+Notpixel Script Full Setup Commands ( Touch To Copy )
+
+1st -    pkg update && pkg upgrade
+
+2nd -   pkg install python
+
+3rd -    pkg install git
+
+4th -       git clone https://github.com/mosibur1/notpixel.git
+        
+5th -     cd notpixel
+
+6th -   pkg install libjpeg-turbo
+   
+7th -   pip install -r requirements.txt
+
+8th -   python main.py
